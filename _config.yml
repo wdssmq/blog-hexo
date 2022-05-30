@@ -3,21 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 水水的 Hexo 博客
+subtitle: 副标题什么的
+description: 做最终做到的事，成为最终成为的人；
+keywords: 折腾, 纠结, 咸鱼
+author: 沉冰浮水
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://blog.wdssmq.com
+permalink: post/:alias.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: "_posts/1970-01-01-empty.md"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -66,7 +66,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: 未分类
 category_map:
 tag_map:
 
