@@ -1,3 +1,6 @@
 [submodule "_md2zb"]
 	path = _md2zb
 	url = git@github.com:wdssmq/Markdown-To-Z-Blog.git
+[submodule "themes/maupassant"]
+	path = themes/maupassant
+	url = git@github.com:wdssmq/maupassant-hexo.git
