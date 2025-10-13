@@ -10,6 +10,13 @@
 
 <!-- https://raw.githubusercontent.com/wdssmq/about/main/about.json -->
 
+## 初始子模块
+
+```bash
+git submodule update --init --recursive
+
+```
+
 ## 二维码
 ## 投喂
 
